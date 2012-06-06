@@ -164,5 +164,18 @@ class BridgeInterface(DeviceComponent, ManagedEntity):
                             'the index needs to be rebuilt')
         return intobjs
         
+    def manage_deleteComponent(self, REQUEST=None):
+        """
+        Delete BridgeInt component
+        """
+        url = None
+        if REQUEST is not None:
+            url = self.device().BridgeInt.absolute_url()
+        self.getPrimaryParent()._delObject(self.id)
+
+        if REQUEST is not None:
+            REQUEST['RESPONSE'].redirect(url)
+
+
 
 InitializeClass(BridgeInterface)

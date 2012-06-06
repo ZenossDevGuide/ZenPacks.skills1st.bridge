@@ -78,6 +78,7 @@ Change History
     * 1.0.3 Zenoss 3.0 support
     * 1.0.4 Zenoss 3.0 version has single Bridge Interface submenu under Components with graphs and details
     * 1.0.5 updated for new github procedures
+    * 1.0.6 updated to include code to delete components
 
 
 Screenshots
