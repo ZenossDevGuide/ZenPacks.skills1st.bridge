@@ -119,8 +119,14 @@ False
 <property type="boolean" id="hasSummary" mode="w" >
 True
 </property>
+<property type="long" id="sequence" mode="w" >
+0
+</property>
 <tomanycont id='graphPoints'>
 <object id='dot1TpPortOutFrames' module='Products.ZenModel.DataPointGraphPoint' class='DataPointGraphPoint'>
+<property type="long" id="sequence" mode="w" >
+0
+</property>
 <property select_variable="lineTypes" type="selection" id="lineType" mode="w" >
 LINE
 </property>
@@ -294,6 +300,9 @@ True
 </property>
 <tomanycont id='graphPoints'>
 <object id='dot1dStpTimeSinceTopologyChange' module='Products.ZenModel.DataPointGraphPoint' class='DataPointGraphPoint'>
+<property type="long" id="sequence" mode="w" >
+0
+</property>
 <property select_variable="lineTypes" type="selection" id="lineType" mode="w" >
 LINE
 </property>
@@ -346,8 +355,14 @@ False
 <property type="boolean" id="hasSummary" mode="w" >
 True
 </property>
+<property type="long" id="sequence" mode="w" >
+0
+</property>
 <tomanycont id='graphPoints'>
 <object id='dot1dStpTopChanges' module='Products.ZenModel.DataPointGraphPoint' class='DataPointGraphPoint'>
+<property type="long" id="sequence" mode="w" >
+0
+</property>
 <property select_variable="lineTypes" type="selection" id="lineType" mode="w" >
 LINE
 </property>
@@ -2402,6 +2417,9 @@ root, e.g., upon expiration of the Topology Change Timer,
 immediately subsequent to its election.  Implementation
 of this trap is optional.
 </property>
+<property type="lines" id="objects" mode="w" >
+[]
+</property>
 </object>
 <object id='topologyChange' module='Products.ZenModel.MibNotification' class='MibNotification'>
 <property id='zendoc' type='string'>
@@ -2431,6 +2449,9 @@ to the Forwarding state, or from the Forwarding state to
 the Blocking state.  The trap is not sent if a newRoot
 trap is sent for the same transition.  Implementation of
 this trap is optional.
+</property>
+<property type="lines" id="objects" mode="w" >
+[]
 </property>
 </object>
 </tomanycont>
@@ -9642,6 +9663,9 @@ of SNMP entities MAY be capable of generating this
 trap, the snmpEnableAuthenTraps object indicates
 whether this trap will be generated.
 </property>
+<property type="lines" id="objects" mode="w" >
+[]
+</property>
 </object>
 <object id='coldStart' module='Products.ZenModel.MibNotification' class='MibNotification'>
 <property id='zendoc' type='string'>
@@ -9668,6 +9692,9 @@ supporting a notification originator application, is
 reinitializing itself and that its configuration may
 have been altered.
 </property>
+<property type="lines" id="objects" mode="w" >
+[]
+</property>
 </object>
 <object id='warmStart' module='Products.ZenModel.MibNotification' class='MibNotification'>
 <property id='zendoc' type='string'>
@@ -9693,6 +9720,9 @@ A warmStart trap signifies that the SNMP entity,
 supporting a notification originator application,
 is reinitializing itself such that its configuration
 is unaltered.
+</property>
+<property type="lines" id="objects" mode="w" >
+[]
 </property>
 </object>
 </tomanycont>
