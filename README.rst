@@ -91,7 +91,7 @@ Screenshots
 .. External References Below. Nothing Below This Line Should Be Rendered
 
 .. _Latest Package for Python 2.6: https://github.com/jcurry/ZenPacks.skills1st.bridge/blob/master/dist/ZenPacks.skills1st.bridge-1.0.5-py2.6.egg?raw=true
-.. _Latest Package for Python 2.6: https://github.com/downloads/jcurry/ZenPacks.skills1st.bridge/ZenPacks.skills1st.bridge-2.0-py2.7.egg
+.. _Latest Package for Python 2.7: https://github.com/downloads/jcurry/ZenPacks.skills1st.bridge/ZenPacks.skills1st.bridge-2.0-py2.7.egg
 
 .. |bridge_zenpack_doc_3| image:: http://github.com/jcurry/ZenPacks.skills1st.bridge/raw/master/screenshots/bridge_zenpack_doc_3.jpg
 .. |bridge_zenpack_doc_4| image:: http://github.com/jcurry/ZenPacks.skills1st.bridge/raw/master/screenshots/bridge_zenpack_doc_4.jpg
