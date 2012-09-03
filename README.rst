@@ -22,7 +22,7 @@ The real purpose of this ZenPack is as an example to help illustrate the paper o
 Requirements & Dependencies
 ===========================
 
-    * Zenoss Versions Supported: 3.0
+    * Zenoss Versions Supported: 3.x and 4.2
     * External Dependencies: 
     * ZenPack Dependencies:
     * Installation Notes: zenhub and zopectl restart after installing this ZenPack.
@@ -43,6 +43,7 @@ Download the appropriate package for your Zenoss version from the list
 below.
 
 * Zenoss 3.0+ `Latest Package for Python 2.6`_
+* Zenoss 4.0+ `Latest Package for Python 2.7`_
 
 Installation
 ============
@@ -90,6 +91,7 @@ Screenshots
 .. External References Below. Nothing Below This Line Should Be Rendered
 
 .. _Latest Package for Python 2.6: https://github.com/jcurry/ZenPacks.skills1st.bridge/blob/master/dist/ZenPacks.skills1st.bridge-1.0.5-py2.6.egg?raw=true
+.. _Latest Package for Python 2.6: https://github.com/downloads/jcurry/ZenPacks.skills1st.bridge/ZenPacks.skills1st.bridge-2.0-py2.7.egg
 
 .. |bridge_zenpack_doc_3| image:: http://github.com/jcurry/ZenPacks.skills1st.bridge/raw/master/screenshots/bridge_zenpack_doc_3.jpg
 .. |bridge_zenpack_doc_4| image:: http://github.com/jcurry/ZenPacks.skills1st.bridge/raw/master/screenshots/bridge_zenpack_doc_4.jpg
