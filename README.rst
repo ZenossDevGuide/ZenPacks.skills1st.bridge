@@ -69,7 +69,7 @@ developer mode::
 Configuration
 =============
 
-Tested with Zenoss 3.1 
+Tested with Zenoss 3.1 and 4.2
 
 Change History
 ==============
@@ -80,6 +80,7 @@ Change History
     * 1.0.4 Zenoss 3.0 version has single Bridge Interface submenu under Components with graphs and details
     * 1.0.5 updated for new github procedures
     * 1.0.6 updated to include code to delete components
+    * 2.0 Updated for Zenoss 4
 
 
 Screenshots
